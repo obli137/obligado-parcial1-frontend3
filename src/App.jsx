@@ -1,22 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Card from './Card'
+import Form from "./Components/Form";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='App'>
-  <Card />
-  <form>
-    
-  </form>
-
+    <div className="App">
+      <h1>Postularme a oportunidad laboral</h1>
+      <Form />
     </div>
-  
-  )
+  );
 }
 
-export default App
+export default App;
